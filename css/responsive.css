@@ -1,9 +1,11 @@
 /* Untuk tablet */
 @media all and (max-width: 1000px) {
+    
     header .navbar ul li a{
         font-size: 14px;
         margin-right: 20px;
     }
+
     header .logo a{
         font-size: 30px;
     }
@@ -30,12 +32,12 @@
     .beranda .beranda-content .block .social-media a{
         width: 20px;
     }
-    
+
     main {
         padding-bottom: 40px;
     }
-    
-        .quotes h2{
+
+    .quotes h2{
         font-size: 25px;
     }
     .cara-pesan .section-title{
@@ -58,17 +60,8 @@
     .heading h1, .section-title {
         font-size: 28px;
     }
-    
-    .heading {
-        padding-top: 64px;
-        padding-bottom: 32px;
-    }
 
-    .heading h1 {
-        font-size: 28px;
-    }
-
-    .food {
+    .food, .pesan-content .box p{
         font-size: 14px;
     }
 
@@ -91,6 +84,11 @@
     .lihat-menu {
         float: none;
     }
+
+    /* .testimoni .testimoni-content{
+        margin-left: 50px;
+        font-size: 15px;
+    } */
 
 }
 
@@ -190,3 +188,6 @@
     }
 
 }
+
+
+
