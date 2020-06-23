@@ -1,5 +1,37 @@
 /* Untuk tablet */
 @media all and (max-width: 1000px) {
+    header .navbar ul li a{
+        font-size: 14px;
+        margin-right: 20px;
+    }
+
+    header .logo a{
+        font-size: 30px;
+    }
+    .beranda .beranda-content .block{
+        flex: 70%;
+        max-width: 70%;
+    }
+    .beranda .beranda-content .block h6{
+        font-size: 22px;
+    }
+
+    .beranda .beranda-content .block h1{
+        font-size: 50px;
+    }
+
+    .beranda .beranda-content .block span{
+        font-size: 50px;
+    }
+
+    .beranda .beranda-content .block .pesan-button a{
+        font-size: 15px;
+    }
+
+    .beranda .beranda-content .block .social-media a{
+        width: 20px;
+    }
+    
     main {
         padding-bottom: 40px;
     }
@@ -48,7 +80,22 @@
     main {
         padding-bottom: 24px;
     }
+    
+    .quotes h2{
+        font-size: 25px;
+    }
+    .cara-pesan .section-title{
+        font-size: 28px;
+    }
 
+    .pesan-content .box h1{
+        font-size: 16px;
+    }
+
+    .pesan-content .box p{
+        font-size: 9px;
+    }
+    
     .heading {
         padding-top: 48px;
         padding-bottom: 16px;
