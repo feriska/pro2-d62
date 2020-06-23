@@ -85,10 +85,10 @@
         float: none;
     }
 
-    /* .testimoni .testimoni-content{
-        margin-left: 50px;
-        font-size: 15px;
-    } */
+    .testimoni .testimoni-content{
+        flex:100%;
+        max-width:100%
+    }
 
 }
 
