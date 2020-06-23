@@ -86,12 +86,12 @@
     }
 
     .testimoni .testimoni-content{
-        flex:100%;
+        flex:0 0 100%;
         max-width:100%
     }
     
     .testimoni figure{
-        flex:100%;
+        flex:0 0 100%;
         max-width:100%
     }
 
@@ -190,6 +190,15 @@
 
     .testimoni h2{
         font-size: 20px;
+    }
+    .testimoni .testimoni-content{
+        flex:0 0 100%;
+        max-width:100%
+    }
+    
+    .testimoni figure{
+        flex:0 0 100%;
+        max-width:100%
     }
 
 }
