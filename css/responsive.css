@@ -34,7 +34,9 @@
     main {
         padding-bottom: 40px;
     }
-
+    main .section-title{
+        font-size:28px;
+    }
     .heading {
         padding-top: 64px;
         padding-bottom: 32px;
