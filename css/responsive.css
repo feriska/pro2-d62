@@ -34,9 +34,31 @@
     main {
         padding-bottom: 40px;
     }
-    main h1 .section-title{
-        font-size:28px;
+    
+        .quotes h2{
+        font-size: 25px;
     }
+    .cara-pesan .section-title{
+        font-size: 28px;
+    }
+
+    .pesan-content .box h1{
+        font-size: 16px;
+    }
+
+    .pesan-content .box p{
+        font-size: 9px;
+    }
+
+    .heading {
+        padding-top: 64px;
+        padding-bottom: 32px;
+    }
+
+    .heading h1, .section-title {
+        font-size: 28px;
+    }
+    
     .heading {
         padding-top: 64px;
         padding-bottom: 32px;
