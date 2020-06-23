@@ -12,12 +12,92 @@
         <link rel="stylesheet" href="css/responsive.css">
     </head>
     <body>
-        <header></header>
-        <main>
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="logo">
+                        <a href="#" >D62</a>
+                    </div>
+                    <div class="navbar">
+                        <ul>
+                            <li><a href="#beranda" class="active">Beranda</a></li>
+                            <li><a href="#carapesan">Cara Pesan</a></li>
+                            <li><a href="#menu">Menu</a></li>
+                            <li><a href="#kontak">Hubungi Kami</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="beranda" id="#Beranda">
+            <div class="container">
+                <div class="row full-screen">
+                    <div class="beranda-content">
+                        <div class="block">
+                            <h6>Makanan rumahan, enak dan sehat.</h6>
+                            <h1><span>Catering Sehat</span> Ribuan pilihan Makanan </h1> 
+                            <div class="pesan-button"><a href="#">Pesan Sekarang ></a></div>
+                            <div class="social-media">
+                                <a href=""><img src="images/instagram.png" height="20px"></a>
+                                <a href=""><img src="images/twitter.png" height="20px"></a>
+                                <a href=""><img src="images/facebook.png" height="20px"></a>
+                                <a href=""><img src="images/whatsapp.png" height="20px"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cara-pesan" id="carapesan"> 
+            <div class="container">
+                <div class="row">
+                    <h1 class="section-title">
+                        Cara Pesan <span class="color">Cateringmu</span> Pertama Kali!
+                    </h1>
+                </div>
+                <div class="pesan-content">
+                    <div class="row">
+                        <div class="box">
+                            <div class="icon">
+                                <img src="images/temukan.png">
+                            </div>
+                            <h1>Temukan Menu</h1>
+                            <p>Temukan berbagai menu 
+                                makanan sehat melalui 
+                                kolom pencarian, atau 
+                                kategori yang dapat kamu 
+                                temukan di halaman Menu.</p>
+                        </div>
+                        <div class="box">
+                            <div class="icon">
+                                <img src="images/pesan.png">
+                            </div>
+                            <h1>Pesan Makananmu</h1>
+                            <p>Klik tombol “tambah” untuk 
+                                menambahkan menu makanan 
+                                yang ingin kamu pesan. Dan pilih 
+                                jadwal makanamu antara 
+                                Senin-Jumat 8:00-17:00 WITA</p>
+                        </div>
+                        <div class="box">
+                            <div class="icon">
+                                <img src="images/antar.png">
+                            </div>
+                            <h1>Siap Diantarkan</h1>
+                            <p>Kamu bisa pilih waktu 
+                                pengantaranmu sendiri
+                                antara jam 9:00-19:00 WITA.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <main id="menu">
             <div class="container">
                 <div class="heading">
                     <h1>Menu Makanan</h1>
                 </div>
+                <h1 class="section-title">Menu Makanan <span class="color">Sehatmu</span></h1>
                 <div class="products">
                     <div class="food">
                         <div class="food-pic">
@@ -57,6 +137,86 @@
                 </div>
             </div>
         </main>
-        <footer></footer>
+        <section class="testimoni">
+            <div class="container">
+                <div class="row center">
+                    <div class="row">
+                        <h2>Kata Mereka yang udah nyobain Catering Sehat</h1>
+                    </div>
+                    <figure>
+                        <img src="images/anonymous.png" alt="photo">
+                    </figure>
+                    <div class="testimoni-content">
+                        <div class="row">
+                            <p> Lorem Ipsum is simply dummy text of the printing and 
+                                typesetting industry. Lorem Ipsum has been the industry's 
+                                standard dummy text ever since the 1500s, when an 
+                                unknown printer took a galley of type and scrambled it 
+                                to make a type specimen book. It has survived not only 
+                                five centuries, but also the leap into electronic typesetting.</p>
+                        </div>
+                        <div class="row">
+                            <h5>Anonymous</h5>
+                        </div>
+                        <div class="row">
+                            <h5>Karyawan Perusahaan x</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="quotes">
+            <div class="container">
+                <div class="row">
+                    <h2>Tak perlu khawatir lagi soal makan. Ada Catering Sehat siap menyajikan hidangan favoritmu</h2>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="kontak">
+            <div class="container">
+                <div class="heading">
+                    <h1>Hubungi Kami</h1>
+                    <p>Tuliskan pesan Anda pada form dibawah ini dan Kami akan hubungi 
+                        Anda kembali dalam kurun waktu 24 jam.</p>
+                </div>
+                <div class="contact-form">
+                    <div class="name">
+                        <input type="text" name="" class="form-control" placeholder="Nama*">
+                    </div>
+                    <div class="row">
+                        <input type="text" name="" class="form-control" placeholder="Email*">
+                    </div>
+                    <div class="row">
+                        <input type="text" name="" class="form-control" placeholder="Telepon*">
+                    </div>
+                    <div class="row">
+                        <select id="tujuan" name="" placeholder="Tujuan*">
+                            <option value="" selected>Tujuan</option>
+                            <option value="1">Catering Acara</option>
+                            <option value="2">Catering Harian</option>
+                          </select>
+                    </div>
+                    <div class="row">
+                        <textarea id="subject" name="" placeholder="Pesan Anda" style="height:200px"></textarea>
+                    </div>
+                    <input type="submit" value="Submit">
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="logo">
+                <a href="#" >Team D62</a>
+            </div>
+            <h1>Catering Sehat</h1>
+            <p>Makanan rumahan, enak dan sehat.</p>
+            <div class="social-media">
+                <a href=""><img src="images/instagram.png" height="20px"></a>
+                <a href=""><img src="images/twitter.png" height="20px"></a>
+                <a href=""><img src="images/facebook.png" height="20px"></a>
+                <a href=""><img src="images/whatsapp.png" height="20px"></a>
+            </div>
+            <p>&#169; Copyright 2020 | D 62 Team </p>
+        </footer>
     </body>
 </html>
