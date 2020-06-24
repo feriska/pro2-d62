@@ -104,26 +104,26 @@
     }
     header .navbar ul li a{
         font-size: 12px;
-        margin-right: 20px;
+        margin-right: 15px;
     }
 
     header .logo a{
-        font-size: 22px;
+        font-size: 15px;
     }
     .beranda .beranda-content .block{
         flex: 70%;
         max-width: 70%;
     }
     .beranda .beranda-content .block h6{
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .beranda .beranda-content .block h1{
-        font-size: 45px;
+        font-size: 40px;
     }
 
     .beranda .beranda-content .block span{
-        font-size: 45px;
+        font-size: 40px;
     }
 
     .beranda .beranda-content .block .pesan-button a{
